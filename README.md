@@ -93,7 +93,7 @@ It has four steps with increasing behaviour related to the main mood and the sca
 ## Demo
 
 - You can find the demonstration video here: https://www.youtube.com/watch?v=eOSpSFr2MlE
-- You can try the application here: https://andreaeugeniolosi.github.io
+- You can try the application here: https://nicolobotti.github.io/
 
 So let's choose the style you want, set a tempo with the bpm selection and start your cool loops!
 
