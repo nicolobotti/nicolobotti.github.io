@@ -1,5 +1,5 @@
 # THA SULLIVATOR 
-<p align="center"> <img src="Images/ThaSullivator.png" > </p>
+<p align="center"> <img src="Images/Screenshot(25).png" > </p>
 
 ## Introduction
 
