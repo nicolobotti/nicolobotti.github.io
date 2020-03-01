@@ -81,6 +81,15 @@ Once you are bored...
 
 ...you can stop it by simply drawing a bored face.
 
+## Jazz progressions
+You can choose the scale and how much ‘’happy’’ or ‘’sad’’ the progression must be with these sliders:
+
+<p> <img width="150" height="150" src="Images/Screenshot (15).png" > </p>
+
+It has four steps with increasing behaviour related to the main mood and the scales are arranged following the Circle of Fifths.
+### Example: Happy 2
+<p> <img src="Images/Screenshot (16).png" > <img src="Images/Screenshot (18).png" > </p>
+
 ## Demo
 
 - You can find the demonstration video here: https://www.youtube.com/watch?v=eOSpSFr2MlE
