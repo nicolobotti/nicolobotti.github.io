@@ -1,0 +1,100 @@
+<html>
+    <head>
+         <title>
+             Tha Sullivator
+         </title>
+        <link rel="stylesheet" href="project1_dubstep.css" id="look">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+        <audio id="kick_sample" src="XLNT-Riddim Riot Kick 40.wav" src="XLNT-Cartel Kick 01.wav" src="XLNT-Cartel Kick 20.wav" src="JK_BD_02.wav" src="Kick bright classic hard.wav" preload="auto"></audio>
+        <audio id="snare_sample" src="XLNT-Riddim Riot Snare 12.wav" src="XLNT-Cartel Clap 05.wav" scr="XLNT-Cartel Clap 07.wav" src="JK_SNR_02.wav"  src="FPC Snare 8.wav" src="Snare ambient punch.wav" preload="auto"></audio>
+        <audio id="charlie_sample" src="Cymatics - Dubstep Toolkit Closed Hihat 2.wav" src="XLNT-Cartel Closed Hat 03.wav" src="XLNT-Cartel Open Hat 06.wav" src="JK_HH_02.wav" src="Hihat bluesbreak.wav" preload="auto"></audio>
+        <audio id="ride_sample" src="Cymatics - Dubstep Toolkit Ride 3.wav" src="XLNT-Cartel Baked 808 [ E ].wav" src="XLNT-Cartel Ride 03.wav" src="JK_BRSH_01.wav" src="Crash session dry.wav" preload="auto"></audio>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.4.84/Tone.js"></script>
+        <script src="https://unpkg.com/tone"></script>
+    </head>
+
+
+
+    <body>
+       
+      
+        <section id="main-container">
+
+
+
+
+            <div id="container">
+                <div class="titleClass"> 
+                    THA SULLIVATOR
+                </div>
+                <div id="button" class="pad"></div>
+                <div id="button" class="pad"></div>
+            </div>
+
+            <div class="bpmContainer">
+
+
+            
+                <input id="tempo" type="number" value="60" class="buttonStyle"></input>
+
+                <button id="addPad" class="add fa fa-plus bpm-plus buttonStyle" onclick="add_pad()"></button>
+
+                <button class="metronomo_on fas fa-play fa-2x buttonStyle playStopMetro" onclick="play_metro()"></button>
+                <button class="metronomo_off fas fa-stop fa-2x buttonStyle playStopMetro" onclick="stop_metro()"></button>
+
+                <button class="metronomo_mute buttonStyle" onclick="mute_beats()">Mute Metro</button>
+                
+            </div>
+
+            <canvas id="sig-canvas" class="canvas" width="600" height="350"></canvas>
+            <div class="oscButtons">
+                <button id="start" class="buttonStyle"></button>
+                <button id="stop" class="buttonStyle"></button>
+            </div>
+
+            <div class="loopContainer">
+
+                <button id="loopstart" class="loop buttonStyle " onclick="play_loop()">Loop Start</button>
+                <button class="loop buttonStyle" onclick="stop_loop()">Loop End</button>
+                <button class="metronomo_mute_loop buttonStyle metroMuteLoop" onclick="mute_beats_loop()">Mute Metro Loop</button>
+            </div>
+
+            <div class="canvasClass">
+
+
+                <canvas id="sig-canvas2" class="canvas2" width="100" height="100"></canvas>
+                <canvas id="sig-canvas3" class="canvas3" width="100" height="100">
+                </canvas>
+
+            </div>
+            <div class="clearClass">
+                <button class="fas fa-eraser fa-2x buttonStyle clear" onclick="clearCanvas()"></button>
+                <select id="genre" class="buttonStyle dubstep" oninput="change_style()">
+                    <option value="dubstep">dubstep</option>
+                    <option value="jazz">jazz</option>
+                    <option value="hip-hop">hip-hop</option>
+                    <option value="rock">rock</option>
+                    <option value="trap">trap</option>
+                </select>
+            </div>
+
+            <div class="developerClass">
+                Developed by A.E.Losi, T.Botti, N.Botti 
+            </div>
+            
+            <div class="ometroRange"> 
+            <input id="key"  min="1" max="12" value="7" type="range">
+            </input>
+            <input id="ometro" min="1" max="4" value="1" type="range">
+            </input>
+            <span id="monitor2"></span>
+            <span id="monitor"></span>
+        </div>
+
+
+
+        </section>
+        <script src="project1.js"></script>
+    </body>
+</html>
