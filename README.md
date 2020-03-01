@@ -12,7 +12,7 @@ This is mainly a percussive instrument, but it has some automatic harmonic progr
 
 ### Styles
 
-<p> <img src="Images/Styles.png" > </p>
+<p> <img src="Images/Immagine1.png" > </p>
 
 You can choose between five music genres:
 - dubstep
@@ -25,7 +25,7 @@ You can choose the style you prefer with the selector in the right bottom of the
 
 ### Touch pad
 
-<p> <img src="Images/TouchPad.png" > </p>
+<p> <img src="Images/Immagine2.png" > </p>
 
 It is the main rectangular white board in the center of the interface and it is the area dedicated for the drawing.
 The possible geometries are: 
@@ -36,37 +36,29 @@ The possible geometries are:
 
 ### Metronome 
 
-<p> <img src="Images/Metro1.png" > </p> <p> <img src="Images/Metro2.png" > </p>
+<p> <img src="Images/Immagine4.png" > </p> <p> <img src="Images/Immagine3.png" > </p>
 
 It works mainly as a common click: you can set the bpm value, start it, stop it and choose the stressed beats. Furthermore, you can increase the number of beats by clicking on the '+' button and remove each one by doubleclicking on the circles. Finally you can also mute the click but still visualize it.
 
 ### Loop station 
 
-<p> <img src="Images/Loopstation.png" > </p>
+<p> <img src="Images/Immagine5.png" > </p>
 
 Tha Sullivator works also as a loop station: you can do some loops in which you will see reappearing the drawings that you have done each time the loop repeats, obviously with their related sounds. You can start it, stop it and also mute the click while the loop is playing.
 
 <br>
 
-<p> <img src="Images/Rubber.png" > </p>
+<p> <img src="Images/Immagine6.png" > </p>
 
 <br>
 
 You can delete the current loop by clicking on the rubber button.
 
-### Oscillator
-
-<p> <img src="Images/Oscillator.png" > <img src="Images/LFO.png" > </p> 
-
-You can start the oscillator by simply clicking on the 'start osc' button, and stop it with the 'stop osc' one.
-The purple circular touch pad allows you to change the pitch, while the yellow one allows you to switch on an LFO. In both cases the parameters are controlled by the position of your finger/mouse pointer. 
-You can switch from one pad to the other by doubletapping on it.
-
 ### Harmonic Progressions
 
 <br>
 
-<p> <img width="150" height="150" src="Images/Happysmile.png" > </p>
+<p> <img width="150" height="150" src="Images/Immagine7.png" > </p>
 
 <br>
 
@@ -75,7 +67,7 @@ For each music genre you have two harmonic progressions depending on two moods: 
 
 <br>
 
-<p> <img width="150" height="135" src="Images/Sadsmile.png" > </p>
+<p> <img width="150" height="135" src="Images/Immagine8.png" > </p>
 
 <br>
 
@@ -83,7 +75,7 @@ Once you are bored...
 
 <br>
 
-<p> <img width="150" height="150" src="Images/Boredsmile2.png" > </p>
+<p> <img width="150" height="150" src="Images/Immagine9.png" > </p>
 
 <br>
 
