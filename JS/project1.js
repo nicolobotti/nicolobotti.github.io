@@ -310,42 +310,42 @@ function detect_geom_loop (i) {
 
 function change_style(){
   if (genre.value=="dubstep") {
-    document.getElementById("look").href="project1_dubstep.css"
-    document.getElementById("kick_sample").src="XLNT-Riddim Riot Kick 40.wav";
-    document.getElementById("snare_sample").src="XLNT-Riddim Riot Snare 12.wav";
-    document.getElementById("charlie_sample").src="Cymatics - Dubstep Toolkit Closed Hihat 2.wav";
-    document.getElementById("ride_sample").src="Cymatics - Dubstep Toolkit Ride 3.wav";
+    document.getElementById("look").href="CSS/project1_dubstep.css"
+    document.getElementById("kick_sample").src="Sounds/Dubstep/XLNT-Riddim Riot Kick 40.wav";
+    document.getElementById("snare_sample").src="Sounds/Dubstep/XLNT-Riddim Riot Snare 12.wav";
+    document.getElementById("charlie_sample").src="Sounds/Dubstep/Cymatics - Dubstep Toolkit Closed Hihat 2.wav";
+    document.getElementById("ride_sample").src="Sounds/Dubstep/Cymatics - Dubstep Toolkit Ride 3.wav";
   }
   if (genre.value=="jazz") {
-    document.getElementById("look").href="project1_jazz.css"
-    document.getElementById("kick_sample").src="JK_BD_02.wav";
-    document.getElementById("snare_sample").src="JK_SNR_02.wav";
-    document.getElementById("charlie_sample").src="JK_HH_02.wav";
-    document.getElementById("ride_sample").src="JK_BRSH_01.wav";
+    document.getElementById("look").href="CSS/project1_jazz.css"
+    document.getElementById("kick_sample").src="Sounds/Jazz/JK_BD_02.wav";
+    document.getElementById("snare_sample").src="Sounds/Jazz/JK_SNR_02.wav";
+    document.getElementById("charlie_sample").src="Sounds/Jazz/JK_HH_02.wav";
+    document.getElementById("ride_sample").src="Sounds/Jazz/JK_BRSH_01.wav";
 
   }
   if (genre.value=="hip-hop") {
-    document.getElementById("look").href="project1_hip-hop.css"
-    document.getElementById("kick_sample").src="XLNT-Cartel Kick 20.wav";
-    document.getElementById("snare_sample").src="XLNT-Cartel Clap 07.wav";
-    document.getElementById("charlie_sample").src="XLNT-Cartel Open Hat 06.wav";
-    document.getElementById("ride_sample").src="XLNT-Cartel Ride 03.wav";
+    document.getElementById("look").href="CSS/project1_hip-hop.css"
+    document.getElementById("kick_sample").src="Sounds/Hip-hop/XLNT-Cartel Kick 20.wav";
+    document.getElementById("snare_sample").src="Sounds/Hip-hop/XLNT-Cartel Clap 07.wav";
+    document.getElementById("charlie_sample").src="Sounds/Hip-hop/XLNT-Cartel Open Hat 06.wav";
+    document.getElementById("ride_sample").src="Sounds/Hip-hop/XLNT-Cartel Ride 03.wav";
   }
   
   if (genre.value=="rock") {
-    document.getElementById("look").href="project1_rock.css"
-    document.getElementById("kick_sample").src="Kick bright classic hard.wav"
-    document.getElementById("snare_sample").src="Snare ambient punch.wav";
-    document.getElementById("charlie_sample").src="Hihat bluesbreak.wav";
-    document.getElementById("ride_sample").src="Crash session dry.wav";
+    document.getElementById("look").href="CSS/project1_rock.css"
+    document.getElementById("kick_sample").src="Sounds/Rock/Kick bright classic hard.wav"
+    document.getElementById("snare_sample").src="Sounds/Rock/Snare ambient punch.wav";
+    document.getElementById("charlie_sample").src="Sounds/Rock/Hihat bluesbreak.wav";
+    document.getElementById("ride_sample").src="Sounds/Rock/Crash session dry.wav";
 
   }
   if (genre.value=="trap") {
-    document.getElementById("look").href="project1_trap.css"
-    document.getElementById("kick_sample").src="XLNT-Cartel Kick 01.wav";
-    document.getElementById("snare_sample").src="XLNT-Cartel Clap 05.wav";
-    document.getElementById("charlie_sample").src="XLNT-Cartel Closed Hat 03.wav";
-    document.getElementById("ride_sample").src="XLNT-Cartel Baked 808 [ E ].wav";
+    document.getElementById("look").href="CSS/project1_trap.css"
+    document.getElementById("kick_sample").src="Sounds/Trap/XLNT-Cartel Kick 01.wav";
+    document.getElementById("snare_sample").src="Sounds/Trap/XLNT-Cartel Clap 05.wav";
+    document.getElementById("charlie_sample").src="Sounds/Trap/XLNT-Cartel Closed Hat 03.wav";
+    document.getElementById("ride_sample").src="Sounds/Trap/XLNT-Cartel Baked 808 [ E ].wav";
   }
   
 }
