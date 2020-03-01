@@ -84,7 +84,7 @@ Once you are bored...
 ## Jazz progressions
 You can choose the scale and how much ‘’happy’’ or ‘’sad’’ the progression must be with these sliders:
 
-<p> <img width="150" height="150" src="Images/Screenshot (15).png" > </p>
+<p> <img src="Images/Screenshot (15).png" > </p>
 
 It has four steps with increasing behaviour related to the main mood and the scales are arranged following the Circle of Fifths.
 ### Example: Happy 2
