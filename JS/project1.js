@@ -326,10 +326,10 @@ function change_style(){
   }
   if (genre.value=="hip-hop") {
     document.getElementById("look").href="CSS/project1_hip-hop.css"
-    document.getElementById("kick_sample").src="Sounds/Hip-hop/XLNT-Cartel Kick 20.wav";
-    document.getElementById("snare_sample").src="Sounds/Hip-hop/XLNT-Cartel Clap 07.wav";
-    document.getElementById("charlie_sample").src="Sounds/Hip-hop/XLNT-Cartel Open Hat 06.wav";
-    document.getElementById("ride_sample").src="Sounds/Hip-hop/XLNT-Cartel Ride 03.wav";
+    document.getElementById("kick_sample").src="Sounds/Hip Hop/XLNT-Cartel Kick 20.wav";
+    document.getElementById("snare_sample").src="Sounds/Hip Hop/XLNT-Cartel Clap 07.wav";
+    document.getElementById("charlie_sample").src="Sounds/Hip Hop/XLNT-Cartel Open Hat 06.wav";
+    document.getElementById("ride_sample").src="Sounds/Hip Hop/XLNT-Cartel Ride 03.wav";
   }
   
   if (genre.value=="rock") {
